@@ -1,0 +1,174 @@
+*{box-sizing: border-box;}
+.title{color:blue;text-align:center;font-family:Algerian;font-size:50px;}
+.info{background-color:lightgray;
+      color:purple;
+       font-family:"Arial black";
+       font-style:italic;
+       font-size:1.5em;
+       text-align:justify;
+      padding: 50px
+     }
+.author{color:red;font-family:"Times New Roman ";font-style: italic;font-weight:bold;font-size:150%;text-align:right;}
+.n1{
+  text-shadow: -10px 0px 3px purple;
+}
+.n2{
+  text-shadow: 0px -15px 3px purple;
+}
+.n3{
+  text-shadow: -10px 10px 3px purple;
+}
+.n4{
+  text-shadow: -10px -10px 3px purple;
+}
+.n5{
+  text-shadow: 0px 0px 3px purple;
+}
+.box1{
+  height: 100px;
+  width: 100px;
+  background-color:yellow;
+  border: groove 5px olive;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding:20px;
+  box-sizing:border-box;
+}
+.box2{
+  height: 200px;
+  width: 50%;
+  background-color:pink;
+  border: inset 20px purple;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+
+  width: 900px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title2{
+  text-align: center;
+  font-size:3em;
+  font-family:algerian;
+  color:black;
+  text-shadow:10px 10px 5px gray;
+}
+.imgContainer{
+
+  height:35%
+}
+.imgContainer img{
+  width: 300px;
+  height: 100%;
+}
+.i1{
+  border-radius: 30px;
+  margin-right: 100px;
+}
+
+.i2{
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.i3{
+  border: ridge 15px blue;
+  padding: 20px;
+  background-color: lightblue;
+  margin-right: 100px;
+}
+
+.i4{
+box-shadow: 0px 0px 10px 5px black;
+}
+.roses{
+
+    text-align: center;
+    font-size:3em;
+    font-family:algerian;
+    color:pink;
+    text-shadow:10px 10px 5px gray;
+}
+.RosesInfo{
+
+        color:blue;
+         font-family:"Bradley Hand ITC";
+
+         font-style:italic;
+         font-size:1.2em;
+         text-align:inherit;
+        padding: 50px;
+}
+.RosesInfo::first-letter{
+    text-transform:capitalize;
+    color:red;
+    font-size: 2em;
+}
+
+.rosesContainer{
+
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+}
+
+
+.rosesContainer img{
+  box-sizing: border-box;
+  width: 270px;
+  height:  80%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.i5{
+
+  border: ridge 10px red;
+  padding: 5px;
+  background-color: pink;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+.i6{
+  border-radius: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.i7{
+  width: 180px;
+  border-radius: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 0px 15px 10px pink;
+}
+
+.i8{
+  width: 250px;
+box-shadow: 0px 2px 15px 10px orange;
+margin-right: auto;
+margin-left: auto;
+}
+.i8 img{
+  width: 250px;
+  height:70px;
+}
+.footer{
+    font-style: italic;
+    text-align: center;
+}
+.capture{
+ font-size:0.5em,
+text-align:left;
+ color:black;
+  font-family: cursive;
+}
